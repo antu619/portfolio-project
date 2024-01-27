@@ -85,3 +85,45 @@ nav li{
 .banner img{
     margin-left: 130px;
 }
+
+/* Section Styles */
+.section-title{
+    font-size: 35px;
+    font-weight: 700;
+    color: #181818;
+}
+.section-text{
+    color: #757575;
+    margin: 30px 0;
+    line-height: 2;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+/* Main Styles */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.about{
+    margin-top: 130px;
+    text-align: center;
+    background: #FFF8F3;
+    border-radius: 10px;
+    padding: 130px 156px;
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+.info-title{
+    color: #757575;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+.info-data{
+    color: #474747;
+    font-size: 20px;
+    font-weight: 700;
+}
