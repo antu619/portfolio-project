@@ -21,6 +21,10 @@ hr{
     width: 558px;
     height: 1px;
 }
+a{
+    text-decoration: none;
+    margin-right: 24px;
+}
 /* Header */
 header{
     background: #ffffff;
@@ -195,4 +199,31 @@ section{
 .resume-button{
     margin: 50px;
     text-align: center;
+}
+
+/* Connect Styles */
+.contact{
+    display: flex;
+    gap: 100px;
+    background: #FFF8F3;
+    padding: 130px 200px;
+}
+.contact .section-title{
+    text-align: left;
+}
+.connect-text{
+    color: #474747;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    margin: 20px 0 30px;
+}
+.message form{
+    margin-top: 28px;
+}
+.contact input, textarea{
+    margin-bottom: 24px;
+    border: 0;
+    width: 100%;
+    padding: 18px 30px;
 }
